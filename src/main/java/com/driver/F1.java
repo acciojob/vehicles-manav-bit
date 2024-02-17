@@ -12,7 +12,7 @@ this.isManual=isManual;
     }
 
     @Override
-    boolean isManual(){
+    public boolean isManual(){
         return isManual;
     }
 
