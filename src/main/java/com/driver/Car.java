@@ -26,13 +26,13 @@ public class Car extends Vehicle {
        this.seats=seats;
 
     }
-    //    String getType(){
+//     public String getType(){
 //        return type;
 //    }
-    int getSeats(){
+   public  int getSeats(){
         return seats;
     }
-    int getCurrentGear(){
+   public int getCurrentGear(){
         return currentGear;
     }
    public boolean isManual(){
